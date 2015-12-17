@@ -1,7 +1,7 @@
 {
-  "coverage": "87.12%",
-  "expectCount": 101,
-  "actualCount": 88,
+  "coverage": "87.96%",
+  "expectCount": 108,
+  "actualCount": 95,
   "files": {
     "lib/Resource/Action.js": {
       "expectCount": 13,
@@ -40,8 +40,8 @@
       ]
     },
     "lib/Resource/LambdaResponse.js": {
-      "expectCount": 3,
-      "actualCount": 3,
+      "expectCount": 6,
+      "actualCount": 6,
       "undocumentLines": []
     },
     "lib/Resource/Exception/LoadCredentialsException.js": {
@@ -115,10 +115,10 @@
       "undocumentLines": []
     },
     "lib/Resource/SuperagentResponse.js": {
-      "expectCount": 2,
-      "actualCount": 1,
+      "expectCount": 6,
+      "actualCount": 5,
       "undocumentLines": [
-        10
+        9
       ]
     },
     "lib/Resource/Exception/UnknownMethodException.js": {

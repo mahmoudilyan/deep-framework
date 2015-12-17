@@ -12,12 +12,6 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "deep-core/lib/aws/lambda/exception/contextalreadysentexception.js~contextalreadysentexception",
-    "class/lib/AWS/Lambda/Exception/ContextAlreadySentException.js~ContextAlreadySentException.html",
-    "<span>ContextAlreadySentException</span> <span class=\"search-result-import-path\">deep-core/lib/AWS/Lambda/Exception/ContextAlreadySentException.js</span>",
-    "class"
-  ],
-  [
     "deep-core/lib/exception/databaseoperationexception.js~databaseoperationexception",
     "class/lib/Exception/DatabaseOperationException.js~DatabaseOperationException.html",
     "<span>DatabaseOperationException</span> <span class=\"search-result-import-path\">deep-core/lib/Exception/DatabaseOperationException.js</span>",
@@ -667,13 +661,13 @@ window.esdocSearchIndex = [
   ],
   [
     "lib/aws/iam/policy.js~policy#version",
-    "class/lib/AWS/IAM/Policy.js~Policy.html#instance-get-version",
+    "class/lib/AWS/IAM/Policy.js~Policy.html#instance-set-version",
     "lib/AWS/IAM/Policy.js~Policy#version",
     "member"
   ],
   [
     "lib/aws/iam/policy.js~policy#version",
-    "class/lib/AWS/IAM/Policy.js~Policy.html#instance-set-version",
+    "class/lib/AWS/IAM/Policy.js~Policy.html#instance-get-version",
     "lib/AWS/IAM/Policy.js~Policy#version",
     "member"
   ],
@@ -715,13 +709,13 @@ window.esdocSearchIndex = [
   ],
   [
     "lib/aws/iam/resource.js~resource#descriptor",
-    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-set-descriptor",
+    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-get-descriptor",
     "lib/AWS/IAM/Resource.js~Resource#descriptor",
     "member"
   ],
   [
     "lib/aws/iam/resource.js~resource#descriptor",
-    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-get-descriptor",
+    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-set-descriptor",
     "lib/AWS/IAM/Resource.js~Resource#descriptor",
     "member"
   ],
@@ -733,13 +727,13 @@ window.esdocSearchIndex = [
   ],
   [
     "lib/aws/iam/resource.js~resource#region",
-    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-set-region",
+    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-get-region",
     "lib/AWS/IAM/Resource.js~Resource#region",
     "member"
   ],
   [
     "lib/aws/iam/resource.js~resource#region",
-    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-get-region",
+    "class/lib/AWS/IAM/Resource.js~Resource.html#instance-set-region",
     "lib/AWS/IAM/Resource.js~Resource#region",
     "member"
   ],
@@ -775,13 +769,13 @@ window.esdocSearchIndex = [
   ],
   [
     "lib/aws/iam/statement.js~statement#condition",
-    "class/lib/AWS/IAM/Statement.js~Statement.html#instance-set-condition",
+    "class/lib/AWS/IAM/Statement.js~Statement.html#instance-get-condition",
     "lib/AWS/IAM/Statement.js~Statement#condition",
     "member"
   ],
   [
     "lib/aws/iam/statement.js~statement#condition",
-    "class/lib/AWS/IAM/Statement.js~Statement.html#instance-get-condition",
+    "class/lib/AWS/IAM/Statement.js~Statement.html#instance-set-condition",
     "lib/AWS/IAM/Statement.js~Statement#condition",
     "member"
   ],
@@ -864,28 +858,10 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "lib/aws/lambda/errorresponse.js~errorresponse.contextmethod",
-    "class/lib/AWS/Lambda/ErrorResponse.js~ErrorResponse.html#static-get-contextMethod",
-    "lib/AWS/Lambda/ErrorResponse.js~ErrorResponse.contextMethod",
+    "lib/aws/lambda/errorresponse.js~errorresponse#contextmethod",
+    "class/lib/AWS/Lambda/ErrorResponse.js~ErrorResponse.html#instance-get-contextMethod",
+    "lib/AWS/Lambda/ErrorResponse.js~ErrorResponse#contextMethod",
     "member"
-  ],
-  [
-    "lib/aws/lambda/errorresponse.js~errorresponse.createerrorobject",
-    "class/lib/AWS/Lambda/ErrorResponse.js~ErrorResponse.html#static-method-createErrorObject",
-    "lib/AWS/Lambda/ErrorResponse.js~ErrorResponse.createErrorObject",
-    "method"
-  ],
-  [
-    "lib/aws/lambda/exception/contextalreadysentexception.js",
-    "file/lib/AWS/Lambda/Exception/ContextAlreadySentException.js.html",
-    "lib/AWS/Lambda/Exception/ContextAlreadySentException.js",
-    "file"
-  ],
-  [
-    "lib/aws/lambda/exception/contextalreadysentexception.js~contextalreadysentexception#constructor",
-    "class/lib/AWS/Lambda/Exception/ContextAlreadySentException.js~ContextAlreadySentException.html#instance-constructor-constructor",
-    "lib/AWS/Lambda/Exception/ContextAlreadySentException.js~ContextAlreadySentException#constructor",
-    "method"
   ],
   [
     "lib/aws/lambda/exception/invalidcognitoidentityexception.js",
@@ -960,21 +936,27 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "lib/aws/lambda/response.js~response#contextsent",
-    "class/lib/AWS/Lambda/Response.js~Response.html#instance-get-contextSent",
-    "lib/AWS/Lambda/Response.js~Response#contextSent",
+    "lib/aws/lambda/response.js~response#contextmethod",
+    "class/lib/AWS/Lambda/Response.js~Response.html#instance-get-contextMethod",
+    "lib/AWS/Lambda/Response.js~Response#contextMethod",
     "member"
   ],
   [
-    "lib/aws/lambda/response.js~response#rawdata",
-    "class/lib/AWS/Lambda/Response.js~Response.html#instance-get-rawData",
-    "lib/AWS/Lambda/Response.js~Response#rawData",
+    "lib/aws/lambda/response.js~response#data",
+    "class/lib/AWS/Lambda/Response.js~Response.html#instance-get-data",
+    "lib/AWS/Lambda/Response.js~Response#data",
     "member"
   ],
   [
-    "lib/aws/lambda/response.js~response#runtime",
-    "class/lib/AWS/Lambda/Response.js~Response.html#instance-get-runtime",
-    "lib/AWS/Lambda/Response.js~Response#runtime",
+    "lib/aws/lambda/response.js~response#runtimecontext",
+    "class/lib/AWS/Lambda/Response.js~Response.html#instance-set-runtimeContext",
+    "lib/AWS/Lambda/Response.js~Response#runtimeContext",
+    "member"
+  ],
+  [
+    "lib/aws/lambda/response.js~response#runtimecontext",
+    "class/lib/AWS/Lambda/Response.js~Response.html#instance-get-runtimeContext",
+    "lib/AWS/Lambda/Response.js~Response#runtimeContext",
     "member"
   ],
   [
@@ -982,12 +964,6 @@ window.esdocSearchIndex = [
     "class/lib/AWS/Lambda/Response.js~Response.html#instance-method-send",
     "lib/AWS/Lambda/Response.js~Response#send",
     "method"
-  ],
-  [
-    "lib/aws/lambda/response.js~response.contextmethod",
-    "class/lib/AWS/Lambda/Response.js~Response.html#static-get-contextMethod",
-    "lib/AWS/Lambda/Response.js~Response.contextMethod",
-    "member"
   ],
   [
     "lib/aws/lambda/runtime.js",
@@ -1000,18 +976,6 @@ window.esdocSearchIndex = [
     "class/lib/AWS/Lambda/Runtime.js~Runtime.html#instance-constructor-constructor",
     "lib/AWS/Lambda/Runtime.js~Runtime#constructor",
     "method"
-  ],
-  [
-    "lib/aws/lambda/runtime.js~runtime#context",
-    "class/lib/AWS/Lambda/Runtime.js~Runtime.html#instance-get-context",
-    "lib/AWS/Lambda/Runtime.js~Runtime#context",
-    "member"
-  ],
-  [
-    "lib/aws/lambda/runtime.js~runtime#contextsent",
-    "class/lib/AWS/Lambda/Runtime.js~Runtime.html#instance-get-contextSent",
-    "lib/AWS/Lambda/Runtime.js~Runtime#contextSent",
-    "member"
   ],
   [
     "lib/aws/lambda/runtime.js~runtime#createerror",
